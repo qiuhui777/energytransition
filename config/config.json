@@ -1,0 +1,56 @@
+{
+  "modules": {
+    "balance": {
+      "enabled": true,
+      "input_type": "csv",
+      "input_csv_file": "data/input/energy_balance_input.csv",
+      "input_json_file": "data/input/energy_balance_input.json",
+      "output_csv_file": "data/output/energy_balance_output.csv"
+    },
+    "industry": {
+      "enabled": true,
+      "input_type": "csv",
+      "input_csv_file": "data/input/industry_input.csv",
+      "output_csv_file": "data/output/industry_output.csv"
+    },
+    "transport": {
+      "enabled": true,
+      "input_type": "csv",
+      "input_csv_file": "data/input/transport_input.csv",
+      "output_csv_file": "data/output/transport_output.csv"
+    },
+    "building": {
+      "enabled": true,
+      "input_type": "csv",
+      "input_csv_file": "data/input/building_input.csv",
+      "output_csv_file": "data/output/building_output.csv"
+    },
+    "power": {
+      "enabled": true,
+      "input_type": "csv",
+      "input_csv_file": "data/input/power_input.csv",
+      "output_csv_file": "data/output/power_output.csv"
+    }
+  },
+  "analysis": {
+    "macro": {
+      "enabled": true,
+      "input_csv_file": "data/input/macro_input.csv",
+      "sector_data_csv_file": "data/input/macro_sector_data.csv",
+      "output_csv_file": "data/output/macro_output.csv",
+      "use_module_results": false
+    },
+    "template": {
+      "enabled": true,
+      "input_csv_file": "data/input/template_input.csv",
+      "output_csv_file": "data/output/template_output.csv",
+      "use_module_results": false
+    },
+    "structure": {
+      "enabled": true,
+      "input_csv_file": "data/input/structure_input.csv",
+      "output_csv_file": "data/output/structure_output.csv",
+      "use_module_results": false
+    }
+  }
+}
